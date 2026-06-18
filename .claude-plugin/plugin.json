@@ -1,6 +1,6 @@
 {
   "name": "infuser-brain",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Comandos do seu Segundo Cerebro Infuser como slash. Cada comando e uma casca fina que chama o servidor (brain__command) e executa a instrucao servida: o conteudo mora no MCP e atualiza sozinho, sem voce reinstalar nada. Precisa do token do seu tenant na variavel INFUSER_MCP_TOKEN.",
   "author": { "name": "Infuser", "url": "https://useinfuser.com" },
   "homepage": "https://useinfuser.com",
