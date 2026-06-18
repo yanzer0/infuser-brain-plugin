@@ -24,6 +24,10 @@ Cada comando aqui é uma **casca fina**. Ele não contém a lógica do comando: 
 
 Sem argumento, `/brain` lista todos os comandos disponíveis no seu tenant.
 
+## Auto-update
+
+O plugin se atualiza sozinho. Um hook `SessionStart` roda `claude plugin update infuser-brain@infuser` no início de cada sessão, então comando novo que a Infuser publica chega na sessão seguinte, sem você reinstalar. No intervalo, qualquer comando novo já é usável na hora via `/brain <nome>`.
+
 ## O que NÃO está aqui
 
 O harness (surface de aprendizados, gate de risco, rotina de encerramento) é entregue à parte. Este plugin é só a camada de comandos.
