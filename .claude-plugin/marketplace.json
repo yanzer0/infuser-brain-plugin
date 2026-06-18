@@ -1,5 +1,6 @@
 {
   "name": "infuser",
+  "description": "Comandos do Segundo Cerebro Infuser como slash, servidos pelo MCP (auto-atualizam, sem segredo no repo).",
   "owner": { "name": "Infuser", "url": "https://useinfuser.com" },
   "plugins": [
     {
