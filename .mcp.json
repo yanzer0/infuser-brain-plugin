@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "infuser": {
+      "type": "http",
+      "url": "https://mcp.useinfuser.com/mcp",
+      "headers": { "Authorization": "Bearer ${INFUSER_MCP_TOKEN}" }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "infuser",
+  "owner": { "name": "Infuser", "url": "https://useinfuser.com" },
+  "plugins": [
+    {
+      "name": "infuser-brain",
+      "source": "./",
+      "description": "Comandos do seu Segundo Cerebro Infuser como slash (/council, /criar-ui, /proposta, /contrato e cia). Cascas finas servidas pelo MCP: o conteudo mora no servidor e auto-atualiza. Sem o token do seu tenant, nada roda."
+    }
+  ]
+}
